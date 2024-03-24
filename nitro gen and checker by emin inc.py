@@ -3,7 +3,7 @@ import string
 import requests
 
 print("Owned By Emin INC.")
-
+print("Nitro Generator And Checker 1.0")
 def generate_code(length=19):
     characters = string.ascii_letters + string.digits
     code = ''.join(random.choice(characters) for _ in range(length))
